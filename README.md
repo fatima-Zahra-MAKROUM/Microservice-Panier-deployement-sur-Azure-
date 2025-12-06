@@ -108,24 +108,3 @@ az containerapp env create --name panier-env --resource-group rg-panier-microser
 # Deploy Container App
 az containerapp create --name panier-api --resource-group rg-panier-microservice --environment panier-env --image acrpaniermicroservice.azurecr.io/panier-microservice:v1 --target-port 8080 --ingress external
 ```
-
-## 📊 Captures d'écran
-
-### Déploiement réussi
-![Déploiement](screenshots/deployment-success.png)
-
-### Test de l'API
-![Test API](screenshots/api-test.png)
-
-### Ressources Azure
-![Resources Azure](screenshots/azure-resources.png)
-
-## 👤 Auteur
-- **Nom** : [Votre Nom]
-- **Date** : Décembre 2025
-- **Cours** : [Nom du cours]
-
-## 📝 Notes
-- Le projet utilise Azure for Students
-- Le déploiement est effectué via Azure CLI
-- Les données du panier sont stockées dans Redis et persistent entre les sessions
