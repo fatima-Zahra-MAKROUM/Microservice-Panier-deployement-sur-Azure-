@@ -39,7 +39,7 @@ https://panier-api.blackcliff-aaac1926.francecentral.azurecontainerapps.io
 
 ### Récupérer un panier
 ```powershell
-Invoke-RestMethod -Uri "https://panier-api.blackcliff-aaac1926.francecentral.azurecontainerapps.io/api/cart/user123" -Method Get
+Invoke-RestMethod -Uri "https://cart-api.happyrock-2daab392.francecentral.azurecontainerapps.io/api/cart/FatimaZahra" -Method Get
 ```
 
 ### Ajouter un article
@@ -51,9 +51,9 @@ $body = @{
     Quantity = 1
 } | ConvertTo-Json
 
-Invoke-RestMethod -Uri "https://panier-api.blackcliff-aaac1926.francecentral.azurecontainerapps.io/api/cart/user123/items" -Method Post -Body $body -ContentType "application/json"
+Invoke-RestMethod -Uri "https://cart-api.happyrock-2daab392.francecentral.azurecontainerapps.io/api/cart/FatimaZahra/items" -Method Post -Body $body -ContentType "application/json"
 ```
-
+https://cart-api.happyrock-2daab392.francecentral.azurecontainerapps.io
 ## 🐳 Docker
 
 ### Build local
