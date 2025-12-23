@@ -22,7 +22,7 @@ Microservice ASP.NET Core pour la gestion d'un panier d'achat avec Redis comme s
 
 ### URL de l'API déployée
 ```
-https://panier-api.blackcliff-aaac1926.francecentral.azurecontainerapps.io
+https://cart-api.happyrock-2daab392.francecentral.azurecontainerapps.io
 ```
 
 ## 📡 Endpoints API
